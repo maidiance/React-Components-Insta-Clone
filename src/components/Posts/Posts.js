@@ -14,6 +14,9 @@ const Posts = (props) => {
           return <Post post={post} key={post.id} likePost={likePost}/>
         })
       }
+      {
+        console.log(likePost)
+      }
       {/* Check the implementation of Post to see what props it requires! */}
     </div>
   );
