@@ -54,6 +54,36 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3,
+        username: "test",
+        thumbnailUrl: 'https://picsum.photos/seed/picsum/200/200',
+        imageUrl: 'https://picsum.photos/seed/picsum/200/200',
+        likes: 777,
+        timestamp: "December 07th 2021, 03:52:11 pm",
+        comments: [
+            {
+                id: 40,
+                username: "user",
+                text: "Mountains are my favorite",
+            },
+            {
+                id: 41,
+                username: "tester",
+                text: "Look at those clouds",
+            },
+            {
+                id: 42,
+                username: "dev",
+                text: "Way too cold, and is there even wifi?",
+            },
+            {
+                id: 43,
+                username: "hungry_man",
+                text: "Now I want rocky road ice cream!",
+            },
+        ],
+    },
 ];
 
 export default dummyData;
