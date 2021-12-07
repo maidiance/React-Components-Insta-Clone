@@ -10,7 +10,6 @@ const SearchBar = (props) => {
   const changeHandler = event => {
     const { value } = event.target;
     props.setSearch(value);
-    console.log(value);
   }
 
   return (
